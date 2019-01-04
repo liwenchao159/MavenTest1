@@ -5,12 +5,12 @@
   <modelVersion>4.0.0</modelVersion>
   <distributionManagement>
     <repository>
-      <id>releases</id><!--这个ID需要与你的release仓库的Repository ID一致-->
-      <url>http://10.58.8.84:8081/nexus/content/repositories/releases</url>
+      <id>Releases</id><!--这个ID需要与你的release仓库的Repository ID一致-->
+      <url>http://10.58.8.84:8081/nexus/content/repositories/releases/</url>
     </repository>
     <snapshotRepository>
-      <id>snapshots</id><!--这个ID需要与你的snapshots仓库的Repository ID一致-->
-      <url>http://10.58.8.84:8081/nexus/content/repositories/snapshots</url>
+      <id>Snapshots</id><!--这个ID需要与你的snapshots仓库的Repository ID一致-->
+      <url>http://10.58.8.84:8081/nexus/content/repositories/snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
   <groupId>com.maven.Test1</groupId>
