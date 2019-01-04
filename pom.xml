@@ -15,7 +15,7 @@
   </distributionManagement>
   <groupId>com.maven.Test1</groupId>
   <artifactId>MavenTest1</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <packaging>war</packaging>
 
   <name>MavenTest1 Maven Webapp</name>
